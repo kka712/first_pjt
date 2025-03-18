@@ -30,4 +30,7 @@ urlpatterns = [
     path('cube/<int:number>/', views.cube),
 
     path('articles/', views.articles),
+
+    path('ping/', views.ping),
+    path('pong/', views.pong),
 ]
